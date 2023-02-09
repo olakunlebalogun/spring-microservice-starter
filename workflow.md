@@ -1,0 +1,4 @@
+- Create Product Entity
+- Create ProductRequest and ProductResponse
+- Create ProductController, ProductServices using Mongodb as DB
+- Carried out unit and integration tests on the Product classes. 
