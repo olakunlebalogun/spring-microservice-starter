@@ -1,0 +1,24 @@
+server:
+  port: ${PORT}
+spring:
+  application:
+    name: Simple Book
+  datasource:
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    url: jdbc:mysql://${DB_ADDRESS}:${DB_PORT}/simple_book
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        show_sql: true
+        format_sql: true
+
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
