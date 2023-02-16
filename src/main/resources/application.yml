@@ -2,11 +2,11 @@ server:
   port: 9980
 spring:
   application:
-    name: Simple Book
+    name: Microservice
   datasource:
     username: root
     password: ola24oluwa
-    url: jdbc:mysql://localhost:3306/product_db
+    url: jdbc:mysql://mysqldb:3306/product_db
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
