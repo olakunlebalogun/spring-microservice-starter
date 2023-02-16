@@ -1,12 +1,12 @@
 server:
-  port: ${PORT}
+  port: 9980
 spring:
   application:
     name: Simple Book
   datasource:
-    username: ${DB_USER}
-    password: ${DB_PASSWORD}
-    url: jdbc:mysql://${DB_ADDRESS}:${DB_PORT}/simple_book
+    username: root
+    password: ola24oluwa
+    url: jdbc:mysql://localhost:3306/simple_book
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
