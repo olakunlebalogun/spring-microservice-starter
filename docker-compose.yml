@@ -29,6 +29,5 @@ services:
       - "3307:3306"
     environment:
       MYSQL_DATABASE: product_db
-      MYSQL_ROOT_PASSWORD: docker_pass
-      MYSQL_USER: docker_db
-      MYSQL_PASSWORD: docker_pass
+      MYSQL_ROOT_PASSWORD: ola24oluwa
+
