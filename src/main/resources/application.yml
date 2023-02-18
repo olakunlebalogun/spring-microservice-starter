@@ -4,10 +4,10 @@ spring:
   application:
     name: Microservice
   datasource:
-    username: root
-    password: ola24oluwa
-    url: jdbc:mysql://mysqldb:3306/product_db
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: docker_db
+    password: docker_pass
+    url: jdbc:mysql://172.18.0.2:3307/product_db
+#    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
