@@ -21,5 +21,10 @@ public class OrderLineItems {
     private String skuCode;
     private BigDecimal price;
     private Integer quantity;
+    // Test: Uncomment the next 3 lines if it does not work.
+    //@ManyToOne
+    // @JoinColumn(name = "order_id", referencedColumnName = "id") // Uncomment this if it does not work
+    //private Order order;
+
 
 }

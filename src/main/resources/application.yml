@@ -1,24 +1,24 @@
-server:
-  port: 9980
-spring:
-  application:
-    name: Microservice
-  datasource:
-    username: root
-    password: ola24oluwa
-    url: jdbc:mysql://mysqldb:3306/product_db
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
-        show_sql: true
-        format_sql: true
-
-  devtools:
-    livereload:
-      enabled: true
-    restart:
-      enabled: true
+#server:
+#  port: 9980
+#spring:
+#  application:
+#    name: Microservice
+#  datasource:
+#    username: root
+#    password: ola24oluwa
+#    url: jdbc:mysql://mysqldb:3306/product_db
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+#        show_sql: true
+#        format_sql: true
+#
+#  devtools:
+#    livereload:
+#      enabled: true
+#    restart:
+#      enabled: true

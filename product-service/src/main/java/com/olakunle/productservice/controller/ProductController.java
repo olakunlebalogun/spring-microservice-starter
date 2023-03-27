@@ -5,12 +5,15 @@ import com.olakunle.productservice.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import static com.olakunle.productservice.utils.ProductURL.*;
 
 
-@RestController
+//@RestController
+@Controller
+@ResponseBody
 @RequiredArgsConstructor
 @RequestMapping(PRODUCT)
 public class ProductController {
