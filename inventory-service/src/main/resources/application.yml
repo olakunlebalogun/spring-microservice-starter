@@ -6,7 +6,7 @@ spring:
   datasource:
     username: root
     password: ola24oluwa
-    url: jdbc:mysql://localhost:3306/6-hour
+    url: jdbc:mysql://localhost:3306/6_hour_inventory
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
